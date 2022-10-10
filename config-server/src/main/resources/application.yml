@@ -1,0 +1,13 @@
+server:
+  port: 9292
+
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Rono-Dennis/config-server
+          clone-on-start: true
+#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 --- git token
